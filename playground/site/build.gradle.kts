@@ -41,3 +41,5 @@ kotlin {
         }
     }
 }
+
+dependencies { add("kspJs", project(":example-processor")) }
